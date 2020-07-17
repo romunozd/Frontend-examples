@@ -1,34 +1,34 @@
+$(function() {
+/*
+	var canvas = d3.select('body')
+				.append('svg')
+				.attr('width', 500)
+				.attr('height', 500);
 
 
-var canvas = d3.select('body')
-            .append('svg')
-            .attr('width', 500)
-            .attr('height', 500);
+	var circle = canvas.append('circle')
+				.attr('cx', 250)
+				.attr('cy', 250)
+				.attr('r', 5)
+				.attr('fill', 'indigo');
 
 
-var circle = canvas.append('circle')
-            .attr('cx', 250)
-            .attr('cy', 250)
-            .attr('r', 5)
-            .attr('fill', 'indigo');
+	var rect = canvas.append('rect')
+				.attr('width', 100)
+				.attr('height', 50)
+				.attr('fill', 'cyan');
 
 
-var rect = canvas.append('rect')
-            .attr('width', 100)
-            .attr('height', 50)
-            .attr('fill', 'cyan');
+	var line = canvas.append('line')
+				.attr('x1', 0)
+				.attr('x2', 400)
+				.attr('y1', 100)
+				.attr('y2', 400)
+				.attr('stroke', 'magenta')
+				.attr('stroke-width', 10);
 
-
-var line = canvas.append('line')
-            .attr('x1', 0)
-            .attr('x2', 400)
-            .attr('y1', 100)
-            .attr('y2', 400)
-            .attr('stroke', 'magenta')
-            .attr('stroke-width', 10);
-
-
-
+	});
+*/
 
 
 
@@ -651,3 +651,6 @@ group_12.selectAll('path').data( arcData ).enter().append('path')
 //console.clear();
 window.scrollTo(0,document.body.scrollHeight);
 //--------------------------------------------
+
+
+});
